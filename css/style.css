@@ -121,7 +121,11 @@ nav ul li a{
     padding: 130px 150px;
 }
 .about-section{
-    background-color: #fff;    
+    background-color: #fff;
+    border: 1px solid #757575;    
+}
+.about-section .about-head{
+    padding: 0px 10px 0px;
 }
 .about-section .about-title{
     text-align: center;
@@ -198,6 +202,7 @@ nav ul li a{
 .resume-content{
     display: flex;
 }
+
 .resume .title{
     font-family: "Open Sans", serif;
     font-size: 30px;
@@ -234,6 +239,78 @@ nav ul li a{
 }
 .resume button{
     width: 200px;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.contact-section{
+    background-color: #FFF8F3;
+    padding: 100px 0px;
+    margin-top: 50px;
+}
+.contact{
+    display: flex;
+    margin: 0px 230px 0px 230px
+}
+.connect{
+    width: 50%;
+}
+.message{
+    width: 50%;
+}
+.connect .connect-title{
+    font-weight: bold;
+    font-size: 35px;
+    font-family: "Open Sans", serif;
+    margin-bottom: 20px;
+
+}
+.connect .connect-details{
+    font-size: 16px;
+    font-family: "Open Sans", serif;
+}
+.connect ul{
+    display: flex;
+}
+.connect ul li{
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 25px;
+}
+.message .message-title{
+    font-weight: bold;
+    font-size: 35px;
+    font-family: "Open Sans", serif;
+}
+.message .form{
+    margin-top: 20px;
+}
+.form input[type="text"], input[type="email"]{
+    background-color: #fff;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    padding: 0px 15px;
+    display: block;
+    width: 100%;
+    height: 65px;
+}
+.form textarea{
+    background-color: #fff;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    padding: 15px 15px;
+    display: block;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.form input[type="submit"]{
+    width: 150px;
     height: 64px;
     border-radius: 5px;
     border: none;

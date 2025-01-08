@@ -151,3 +151,93 @@ nav ul li a{
     font-family: "Open Sans", serif;
 
 }
+.skill-section{
+    margin-top: 100px;
+}
+.skill{
+    text-align: center;
+}
+.skill .title{
+    font-family: "Open Sans", serif;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+.skill .description{
+    font-family: "Open Sans", serif;
+    font-size: 18px;
+    width: 909px;
+    margin: 0 auto;
+}
+.card-skill{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.card-skill .skill-item{
+    padding: 30px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    margin-right: 24px;
+}
+.skill-item .images{
+    margin: 30px 0px;
+}
+.skill-item .card-title{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: "Open Sans", serif;
+}
+.skill-item .card-details{
+    font-family: "Open Sans", serif;
+    font-size: 16px;
+}
+.resume{
+    margin-top: 50px;
+}
+.resume-content{
+    display: flex;
+}
+.resume .title{
+    font-family: "Open Sans", serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.education, .experience{
+    margin-bottom: 50px;
+}
+.education-container-title, .experience-container-title{
+    font-family: "Open Sans", serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.education .education-title, .experience-title{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Open Sans", serif;
+    margin-bottom: 10px;
+}
+.education .education-subtitle, .experience-subtitle{
+    font-size: 20px;
+    font-family: "Open Sans", serif;
+    margin-bottom: 50px;
+}
+.education .education-details, .experience-details{
+    font-size: 16px;
+    font-family: "Open Sans", serif;
+}
+.resume .resume-btn{
+    text-align: center;
+}
+.resume button{
+    width: 200px;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+    font-weight: bold;
+}
